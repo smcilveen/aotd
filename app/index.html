@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title></title>
+    <title>AoTd</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
@@ -11,10 +11,69 @@
     <!-- build:css({.tmp,app}) styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
     <!-- endbuild -->
+    <style>
+    table {
+        border-collapse: collapse;
+        border: 1px solid blue;
+        border-radius: 4px;
+        width: 60%;
+        margin: 20%;
+        height: 60%;
+        min-height: 60%;
+    }
+    th {
+  
+        border: 1px solid black;
+    }
+    td { 
+        border: 1px solid black;
+        
+    }
+    </style>
   </head>
   <body ng-app="aotdApp">
     <!-- Add your site or application content here -->
-    <div class="container" ng-view="">Hello World</div>
+    <div class="container" ng-view="">
+	
+    <table>
+	    <tr>
+            <th> Test Heading</th>
+            <th> Test Heading2</th>
+            <th> Test Heading3</th>
+            <th> Test Heading4</th>
+        </tr>
+        <tr>
+            <td> Test </td>
+            <td> Test2 </td>
+            <td> Test3 </td>
+            <td> Test4 </td>
+        </tr>
+            <td> Test </td>
+            <td> Test2 </td>
+            <td> Test3 </td>
+            <td> Test4 </td>
+        </tr>
+        </tr>
+            <td> Test </td>
+            <td> Test2 </td>
+            <td> Test3 </td>
+            <td> Test4 </td>
+        </tr>
+        </tr>
+            <td> Test </td>
+            <td> Test2 </td>
+            <td> Test3 </td>
+            <td> Test4 </td>
+        </tr>
+        </tr>
+            <td> Test </td>
+            <td> Test2 </td>
+            <td> Test3 </td>
+            <td> Test4 </td>
+        </tr>
+	</table>
+    
+	</div>
 
     <!-- Libraries -->
     <script src="bower_components/jquery/jquery.js"></script>
